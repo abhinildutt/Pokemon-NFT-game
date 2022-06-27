@@ -50,7 +50,7 @@ contract MyEpicGame is ERC721 {
     }
 
 
-        function mintCharacterNFT(uint _characterIndex) external {
+    function mintCharacterNFT(uint _characterIndex) external {
             uint256 newItemId = _tokenIds.current();
 
             _safeMint(msg.sender, newItemId);
