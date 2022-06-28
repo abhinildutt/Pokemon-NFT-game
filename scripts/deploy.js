@@ -7,7 +7,11 @@ const main = async () => {
       "https://upload.wikimedia.org/wikipedia/en/1/1f/Pokémon_Charizard_art.png", 
       "https://static.pokemonpets.com/images/monsters-images-300-300/8003-Mega-Venusaur.webp"],
       [100, 80, 300],                    // HP values
-      [100, 120, 25]             
+      [100, 120, 25],
+      "Mewtwo",
+      "https://www.giantbomb.com/a/uploads/square_small/13/135472/1895869-150mewtwo.png",
+      2000,
+      20
     );
     await gameContract.deployed();
     console.log("Contract deployed to:", gameContract.address);
